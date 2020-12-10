@@ -61,7 +61,7 @@ export default class Board extends Component {
 						onSquareClick={() => this.onSquareClick(index)}
 					/>)
 			}
-			<p>{this.state.winner != '' ? "Castigatoru el " + this.state.winner : ""} </p>
+			<p>{this.state.winner != '' ? "Castigatoru e " + this.state.winner : ""} </p>
 		</div>
 	}
 }
